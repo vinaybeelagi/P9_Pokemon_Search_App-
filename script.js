@@ -68,7 +68,7 @@ const resetDisplay = () => {
     specialDefense.textContent = '';
     speed.textContent = '';
   };
-  // Form Submission Event Listener
+  
 searchForm.addEventListener('submit', e => {
     e.preventDefault();
     getPokemon();
